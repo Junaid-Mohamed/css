@@ -1,0 +1,193 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+     background-color: #333;
+     height: 400px;
+     color: white;
+     padding: 1rem;
+}
+
+.fa {
+   padding: 0 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+    
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-items a{
+    font-size: 1.2rem;
+    padding: 0 10px;
+  }
+
+.subscribe-btn{
+    font-size: 1rem;
+    color: white;
+    background-color: #333;
+    border: 1px solid white;
+    border-radius: 0.3rem;
+    padding: 0.2rem 0.5rem;
+}
+
+header img{
+    height: 60px;
+    padding-top: 120px;
+    /* height: 00px */
+}
+.header-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-hero p{
+    color: antiquewhite;
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+.container{
+    padding: 2rem;
+}
+
+section{
+    padding: 1rem;
+}
+
+.ghost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ghost-img{
+    height: 500px;
+    flex-basis: 65%;
+}
+
+.ghost-readMore img{
+    height: 10%;
+    width: 10%;
+}
+
+.ghost-description{
+    flex-basis: 35%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ghost-description .getting-started{
+    color: blue;
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+.ghost-description h1{
+    font-size: 1.8rem;
+    margin-top: 0;
+    /* margin: ; */
+}
+
+.ghost-description p{
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.ghost-readMore{
+    padding-top: 3rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.ghost-readMore h4,p{
+    margin: 10px 0;
+}
+
+.ghost-readMore p{
+    font-size: 0.8rem;
+}
+
+/* section2 */
+
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.col{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ghost-container .getting-started{
+    color: blue;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.ghost-container h2{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.ghost-container p{
+    color: gray;
+}
+
+.ghost-footer{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.ghost-footer-logo{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.ghost-footer p{
+    font-size: 0.9rem;
+}
+
+.ghost-footer span{
+    color: black;
+    font-weight: bold;
+}
+
+.section-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.col-3{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col-3-img{
+    width: 100%;
+    border-radius: 10px;
+}
